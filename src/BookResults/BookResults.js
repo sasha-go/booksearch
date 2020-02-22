@@ -4,7 +4,7 @@ import './BookResults.css';
 function BookResults(props) {
 	return (
 		<div>
-		
+			{props.displayResults}
 		</div>
 	)
 }

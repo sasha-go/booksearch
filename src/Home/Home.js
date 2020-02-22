@@ -1,10 +1,11 @@
 import React from 'react';
 import './Home.css';
+import BookResults from '../BookResults/BookResults';
 
 function Home(props) {
 	return (
 		<div>
-			<p>Search for Books</p>
+			<BookResults displayResults={props.displayResults}/>
 		</div>
 	)
 }
